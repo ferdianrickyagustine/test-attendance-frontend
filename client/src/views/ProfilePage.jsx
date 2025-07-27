@@ -100,12 +100,12 @@ export default function ProfilePage() {
               </div>
             </div>
             <a href="/update-profile"
-              className="text-center mt-8 w-full bg-green-600/60 hover:bg-green-700/60 text-white px-4 py-2 rounded shadow"
+              className="text-center mt-8 w-full bg-green-600/60 hover:bg-green-700/60 transition-colors text-white px-4 py-2 rounded shadow"
             >
               Edit Profile
             </a>
             <a href="/update-password"
-              className="text-center mt-2 bg-orange-600/60 hover:bg-orange-700/60 text-white px-4 py-2 rounded"
+              className="text-center mt-2 bg-orange-600/60 hover:bg-orange-700/60 transition-colors text-white px-4 py-2 rounded"
             >
               Change Password
             </a>

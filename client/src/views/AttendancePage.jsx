@@ -62,7 +62,7 @@ export default function AttendancePage() {
 
     return (
         <div className="min-h-screen flex flex-col items-center justify-center bg-radial-[at_50%_20%] from-gray-800 to-gray-600 px-4">
-                <h1 className="text-2xl font-bold text-white bg-black/60 rounded-t-lg w-full max-w-md text-center p-5">Attendance Page</h1>
+            <h1 className="text-2xl font-bold text-white bg-black/60 rounded-t-lg w-full max-w-md text-center p-5">Attendance Page</h1>
             <div className="w-full max-w-md bg-black/60 rounded-b-lg shadow flex items-center gap-6 p-5">
                 <button className="w-1/2 border border-gray-300/60 items-center gap-4 bg-green-600 transition-colors hover:bg-green-800 rounded-lg text-center text-white" onClick={handleCheckIn}>
                     <div className="pt-10 text-2xl">{attendance.checkIn && new Date(attendance.checkIn).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</div>
