@@ -6,6 +6,8 @@ import { Bounce, ToastContainer } from "react-toastify"
 import ProfilePage from "./views/ProfilePage"
 import UpdateProfilePage from "./views/UpdateProfilePage"
 import UpdatePasswordPage from "./views/UpdatePasswordPage"
+import AttendancePage from "./views/AttendancePage"
+import AttendanceSummaryPage from "./views/AttendanceSummaryPage"
 
 export default function App() {
 
@@ -19,8 +21,8 @@ export default function App() {
             <Route path="/profile" element={<ProfilePage />} />
             <Route path="/update-profile" element={<UpdateProfilePage />} />
             <Route path="/update-password" element={<UpdatePasswordPage />} />
-            {/* <Route path="/attendance" element={<AttendancePage />} /> */}
-            {/* <Route path="/attendance/summary" element={<AttendanceSummaryPage />} /> */}
+            <Route path="/attendance" element={<AttendancePage />} />
+            <Route path="/attendance-summary" element={<AttendanceSummaryPage />} />
 
           </Route>
         </Routes>
