@@ -1,8 +1,10 @@
 export default function RegisterPage() {
-    
+
     return (
-        <div className="bg-red-500 text-white p-4">
-            RegisterPage
-        </div>
+        <>
+            <div className="h-screen flex justify-center items-center bg-black text-white p-4">
+                RegisterPage
+            </div>
+        </>
     );
 }
