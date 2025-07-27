@@ -18,7 +18,8 @@ export default function LoginPage() {
     async function handleSubmit(e) {
         e.preventDefault();
         try {
-            const { data } = await axios.post("http://localhost:3000/auth/login", { email, password });
+            const body = { email, password }
+            const { data } = await axios.post("http://localhost:3000/auth/login", body);
             localStorage.setItem("token", data.token)
             navigate("/");
             toast.success("Login successful");

@@ -16,7 +16,9 @@ export default function BaseLayout() {
     return (
         <>
             <Navbar />
-            <Outlet />
+            <div className="mt-18 md:mt-1">
+                <Outlet />
+            </div>
         </>
     )
 }
