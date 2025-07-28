@@ -21,7 +21,7 @@ Aplikasi web untuk absensi WFH karyawan. Karyawan dapat login, melihat dan mengu
 - `/update-profile` – Edit data diri
 - `/update-password` – Ganti password
 - `/attendance` – Absen masuk/pulang 
-- `/attendance/summary` – Halaman summary/riwayat absen
+- `/attendance-summary` – Halaman summary/riwayat absen
 
 ---
 
@@ -45,6 +45,7 @@ Aplikasi web untuk absensi WFH karyawan. Karyawan dapat login, melihat dan mengu
 1. Jalankan backend (NestJS) di port yang sudah diatur.
 2. Jalankan frontend:
     ```bash
+    cd client
     npm install
     npm run dev
     ```
