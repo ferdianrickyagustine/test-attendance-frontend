@@ -3,6 +3,8 @@
 ## Deskripsi
 Aplikasi web untuk absensi WFH karyawan. Karyawan dapat login, melihat dan mengubah profil, melakukan absen masuk/pulang, serta melihat riwayat absensi. Semua fitur dipecah ke beberapa halaman sesuai kebutuhan.
 
+Aplikasi ini dibuat menggunakan **Vite** dan **Tailwind CSS** untuk membuat tampilannya.
+
 ---
 
 ## Fitur
